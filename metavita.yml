@@ -1,0 +1,222 @@
+--- 
+
+###############
+# contact
+###############
+
+name: "Daniel Krashen"
+department: "Department of Mathematics, University of Georgia"
+address: "Athens, GA 30602"
+email: "dkrashen@uga.edu"
+phone: "(706) 542-2555"
+
+###############
+# background
+###############
+
+appointments:
+  -
+    title: "Associate Professor" 
+    institution: "University of Georgia"
+    dates: "2012-present"
+  -
+    title: "Assistant Professor"
+    institution: "University of Georgia"
+    dates: "2008-2012"
+  -
+    title: "Visiting Scholar"
+    institution: "University of Pennsylvania"
+    dates: "2007-2008"
+  -
+    title: "Member"
+    institution: "Institute for Advanced Study, Princeton"
+    dates: "Fall 2006"
+  -
+    title: "Member"
+    institution: "Institute for Advanced Study, Princeton"
+    dates: "2004-2005" 
+  -
+    title: "Gibbs Assistant Professor"
+    institution: "Yale University"
+    dates: "2003-2007"
+  -
+    title: "Visiting Scholar"
+    institution: "University of Michigan, Ann Arbor"
+    dates: "2002-2003"
+  -
+    title: "VIGRE Assistant Professor"
+    institution: "University of California, Los Angeles"
+    dates: "2001-2003"
+  -
+    title: "Graduate Instructor"
+    institution: "University of Texas at Austin"
+    dates: "1997-2001"
+
+###############
+# research
+###############
+
+publications: 
+
+  - 
+    arxiv: "1409.2580"
+    title: "Derived categories for torsors for Abelian schemes"
+    with: "Benjamin Antieau and Matthew Ward"
+    year: 2014
+    arxiv_year: 2014
+    status: "in submission"
+
+  - 
+    arxiv: "1409.1888"
+    title: "Torsion in Chow groups of zero cycles of homogeneous projective varieties"
+    year: 2014
+    arxiv_year: 2014
+    status: "not in submission"
+  - 
+    arxiv: "1404.4349"
+    title: "Refinements to patching and applications to field invariants"
+    with: "David Harbater and Julia Hartmann"
+    year: 2014
+    arxiv_year: 2014
+    publication_year: 2015
+    revision_year: 2014
+    journal: "International Math. Research Notices"
+    pubinfo: "doi: 10.1093/imrn/rnu278"
+
+  - 
+    arxiv: "1305.5217"
+    title: "Period and index, symbol lengths, and generic splittings in Galois cohomology"
+    arxiv_year: 2013
+    revision_year: 2014
+
+  - 
+    arxiv: "1305.5295"
+    in: "to appear in Trans. of the AMS"
+    title: "Diophantine and cohomological dimensions"
+    with: "Eliyahu Matzri"
+    arxiv_year: 2013
+    accepted_year: 2014
+
+  - 
+    MR: "MR3177913"
+    arxiv: "1208.6359"
+    in: "Comment. Math. Helv."
+    pubinfo: "89 (2014),  no. 1, 215--253"
+    title: "Local-global principles for Galois cohomology"
+    with: "David Harbater and Julia Hartmann"
+    year: 2014
+    publication_year: 2014
+    
+  - 
+    MR: "MR3072806"
+    arxiv: "1109.6362"
+    in: "Math. Ann."
+    pubinfo: "356 (2013),  no. 4, 1405--1424"
+    title: "Weierstrass preparation and algebraic invariants"
+    with: "David Harbater and Julia Hartmann"
+    year: 2013
+  - 
+    MR: MR3009747
+    arxiv: math/0701614
+    in: "Israel J. Math."
+    pubinfo: "192 (2012),  no. 2, 921--949"
+    title: "Relative Brauer groups of genus 1 curves"
+    with: "Mirela Ciperiani"
+    year: 2012
+  - 
+    MR: MR2837009
+    arxiv: math/0702240
+    by: "Max Lieblich"
+    in: "J. Reine Angew. Math."
+    pubinfo: "659 (2011), 1--41"
+    title: "Appendix to: Period and index in the Brauer group of an arithmetic surface"
+    year: 2011
+  - 
+    MR: MR2775810
+    arxiv: "0904.1594"
+    in: "Trans. Amer. Math. Soc."
+    pubinfo: "363 (2011),  no.  6, 3335--3349"
+    title: "Patching subfields of division algebras"
+    with: "David Harbater and Julia Hartmann"
+    year: 2011
+  - 
+    MR: MR2745259
+    arxiv: "1001.3685"
+    in: "Manuscripta Math."
+    pubinfo: "134 (2011), no. 1-2, 171--182."
+    title: "Distinguishing division algebras by finite splitting fields"
+    with: "Kelly McKinnie"
+    year: 2011
+  - 
+    MR: MR2648720
+    arxiv: "0909.3115"
+    in: "Quadratic forms, linear algebraic groups, and cohomology"
+    pubinfo: "57--82, Dev. Math., 18, Springer, New York, 2010"
+    title: "Field patching, factorization, and local-global principles"
+    year: 2010
+  - 
+    MR: MR2645050
+    arxiv: "0704.3443"
+    in: "Trans. Amer. Math. Soc."
+    pubinfo: "362 (2010), no. 9, 4781--4792"
+    title: "Corestrictions of algebras and splitting fields"
+    year: 2010
+  - 
+    MR: MR2601007
+    arxiv: math/0501399
+    in: "Adv. Math."
+    pubinfo: "223 (2010), no. 6, 2022--2048"
+    title: "Zero cycles on homogeneous varieties"
+    year: 2010
+  - 
+    MR: MR2545681
+    arxiv: "0809.4481"
+    in: "Invent. Math."
+    pubinfo: "178 (2010), no.  2, 231--263"
+    title: "Applications of patching to quadratic forms and central simple algebras"
+    with: "David Harbater and Julia Hartmann"
+    year: 2009
+  - 
+    MR: MR2496455
+    arxiv: math/0505296
+    in: "J.  Algebraic Geom."
+    pubinfo: "18 (2009), no.  3, 477--509."
+    title: "Pointed trees of projective spaces."
+    with: "Linda Chen and Angela Gibney"
+    year: 2009
+  - 
+    MR: MR2428144
+    arxiv: "0706.1072"
+    in: "Int. Math. Res. Not. IMRN"
+    pubinfo: "no. 8 (2008), Art. ID rnn010, 31 pp."
+    title: "Index reduction for Brauer classes via stable sheaves"
+    with: "Max Lieblich"
+    year: 2008
+  - 
+    MR: MR2363485
+    arxiv: math/0203117
+    in: "J. Pure Appl. Algebra"
+    pubinfo: "212 (2008), no.  4, 689--703"
+    title: "Birational maps between generalized Severi-Brauer varieties"
+    year: 2008
+  - 
+    MR: MR2363128
+    arxiv: math/0603389
+    in: "J. Algebra"
+    pubinfo: "318 (2007), no.  1, 135--139"
+    title: "Motives of unitary and orthogonal homogeneous varieties"
+    year: 2007
+  - 
+    MR: MR2090670
+    in: "Algebraic transformation groups and algebraic varieties"
+    pubinfo: "59--70, Encyclopaedia Math.  Sci., 132, Springer, Berlin, 2004"
+    title: "Severi-Brauer varieties and symmetric powers"
+    with: "David J. Saltman"
+    year: 2004
+  - 
+    MR: MR2029172
+    arxiv: math/0206154
+    in: "Doc. Math."
+    pubinfo: "8 (2003), 527--546 (electronic)"
+    title: "Severi-Brauer varieties of semidirect product algebras"
+    year: 2003

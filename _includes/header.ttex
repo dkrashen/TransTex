@@ -1,0 +1,13 @@
+\newlength{\rcollength}\setlength{\rcollength}{1.85in}%
+\makeheading{
+\ttvar{data.name} \hspace{2.5cm} Curriculum Vit\ae}
+
+\section{Contact}  
+\begin{tabular}[t]{@{}p{\textwidth-\rcollength}p{\rcollength}} 
+\ttvar{data.department} & \ttvar{data.phone} \\
+\ttvar{data.address} & \href{mailto:\ttvar{data.email}}{\ttvar{data.email}} \\
+\end{tabular}
+
+\section{Webpage} 
+\url{http://dkrashen.github.io/}
+
