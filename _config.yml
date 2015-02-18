@@ -1,8 +1,8 @@
 testing: true
 
 # Site settings
-title: "the title"
-description: "the tagline"
+title: "TransTex"
+description: "A jinja2 based latex templating tool"
 
 baseurl: ""
 
