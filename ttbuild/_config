@@ -1,0 +1,4 @@
+ttex="../ttex"
+datafile=metavita.yml
+tex=pdflatex
+junk="*.aux *.log *.out"

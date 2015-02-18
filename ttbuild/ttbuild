@@ -5,11 +5,7 @@ if [[ ! -f $1.ttex ]] ; then
   exit
 fi
 
-ttex="./ttex"
-datafile=metavita.yml
-
-tex=pdflatex
-junk="*.aux *.log *.out"
+source ./_config
 
 includes=$(ls _includes)
 

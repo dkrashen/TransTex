@@ -1,0 +1,54 @@
+--- 
+
+###############
+# contact
+###############
+
+name: "Danny"
+department: "Department of Mathematics, University of Georgia"
+address: "Athens, GA 30602"
+email: "dkrashen@xxx.xxx"
+phone: "(xxx) xxx-xxxx"
+
+###############
+# background
+###############
+
+appointments:
+  -
+    title: "Associate Professor" 
+    institution: "University of Georgia"
+    dates: "2012-present"
+  -
+    title: "Assistant Professor"
+    institution: "University of Georgia"
+    dates: "2008-2012"
+  -
+    title: "Visiting Scholar"
+    institution: "University of Pennsylvania"
+    dates: "2007-2008"
+  -
+    title: "Member"
+    institution: "Institute for Advanced Study, Princeton"
+    dates: "Fall 2006"
+  -
+    title: "Member"
+    institution: "Institute for Advanced Study, Princeton"
+    dates: "2004-2005" 
+  -
+    title: "Gibbs Assistant Professor"
+    institution: "Yale University"
+    dates: "2003-2007"
+  -
+    title: "Visiting Scholar"
+    institution: "University of Michigan, Ann Arbor"
+    dates: "2002-2003"
+  -
+    title: "VIGRE Assistant Professor"
+    institution: "University of California, Los Angeles"
+    dates: "2001-2003"
+  -
+    title: "Graduate Instructor"
+    institution: "University of Texas at Austin"
+    dates: "1997-2001"
+
