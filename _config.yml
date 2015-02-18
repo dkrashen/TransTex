@@ -1,0 +1,13 @@
+testing: true
+
+# Site settings
+title: "the title"
+description: "the tagline"
+
+baseurl: ""
+
+# url: "localhost:4000"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
