@@ -3,28 +3,21 @@ layout: default
 ---
 
 <div class="row well header-row">
-<div class="col-md-8">
-</div>
-
-<div class="col-md-1"></div>
-
-<div class="col-md-3">
-  <h3> News </h3>
+<div class="col-md-12">
+<br />
   <ul class="posts list-unstyled">
     {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <dl>
+        <dt>
         <a class="post-link" 
           href="{{ post.url | prepend: site.baseurl }}"
           >{{ post.title }}</a>
-      </li>
+        </dt>
+        <dd>{{ post.description }}</dd>
+      </dl>
     {% endfor %}
   </ul>
 
-  <p class="rss-subscribe">
-    subscribe 
-    <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a>
-  </p>
 </div>
 </div>
 
