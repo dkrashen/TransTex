@@ -1,26 +1,28 @@
 #!/usr/local/bin/python
 
-import os
-import jinja2
-import sys
-import yaml
+import os, sys, yaml, jinja2
 
-num_args = len(sys.argv)
+def processargs(args):
+    if (len(args) != 4):
+        print "incorrect number of arguments. command format:"
+        print args[0], \
+            "<template filename> <data filename> <output filename>"
+        sys.exit()
+    else: 
+        template_filename = args[1]
+        data_filename = args[2]
+        output_filename = args[3]
+    if (not (os.path.isfile(template_filename))):
+        print "template file", template_filename, "not found."
+        sys.exit()
+    elif (not (os.path.isfile(data_filename))):
+        print "data file", data_filename, "not found."
+        sys.exit()
+    return (template_filename, data_filename, output_filename)
 
-if (num_args != 4):
-    print "invalid syntax. command format:"
-    print sys.argv[0], "<template filename> <data filename> <output filename>"
-    sys.exit()
- 
-template_filename = sys.argv[1]
-data_filename = sys.argv[2]
-output_filename = sys.argv[3]
-
-data = yaml.load(open(data_filename), Loader=yaml.Loader)
-
-templateLoader = jinja2.FileSystemLoader( searchpath="" )
-
-j_env = jinja2.Environment(
+def ttenv():
+    templateLoader = jinja2.FileSystemLoader( searchpath="" )
+    env = jinja2.Environment(
         loader=templateLoader, 
         trim_blocks=True,
         lstrip_blocks=True,
@@ -30,8 +32,22 @@ j_env = jinja2.Environment(
         block_end_string='}',
         comment_start_string='\\ttcomment{',
         comment_end_string='}')
+    return env
 
-template = j_env.get_template(template_filename)
+def getdata(data_filename):
+    data = yaml.load(open(data_filename), Loader=yaml.Loader)
+    return data
+
+def gettemplate(template_filename):
+    j_env = ttenv()
+    template = j_env.get_template(template_filename)
+    return template
+
+(template_filename, data_filename, output_filename) = \
+    processargs(sys.argv)
+
+data = getdata(data_filename)
+template = gettemplate(template_filename)
 
 out_f = open(output_filename, 'w')
 out_f.write(template.render(data=data))
