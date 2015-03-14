@@ -1,0 +1,15 @@
+\ttblock{include "templates/topmatter.ttex"}
+
+\begin{document}
+
+\ttblock{include "templates/header.ttex"}
+
+\ttblock{include "templates/education.ttex" ignore missing}
+
+\ttblock{include "templates/phdthesis.ttex"}
+
+\ttblock{include "templates/appointments.ttex"}
+
+\end{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% End CV Document %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
