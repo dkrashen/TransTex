@@ -3,22 +3,14 @@ layout: default
 ---
 
 <div class="row well header-row">
-<div class="col-md-12">
-<br />
-  <ul class="posts list-unstyled">
-    {% for post in site.posts %}
-      <dl>
-        <dt>
-        <a class="post-link" 
-          href="{{ post.url | prepend: site.baseurl }}"
-          >{{ post.title }}</a>
-        </dt>
-        <dd>{{ post.description }}</dd>
-      </dl>
-    {% endfor %}
-  </ul>
-
-</div>
+  <div class="col-md-12">
+    <p>TransTex is a command-line tool for transforming tex template files
+    into tex files with the aid of auxiliary data files in yaml format.</p>
+    <p> TransTex supports the inclusion of special tags `\ttvar{name} or
+    \ttblock{command}. These are simply interpreted as jinja2 tags, which
+    are then processed by TransTex in order to produce a standard tex file
+    using a specified yaml datafile for the jinja2 templating.  </p>
+  </div>
 </div>
 
 
